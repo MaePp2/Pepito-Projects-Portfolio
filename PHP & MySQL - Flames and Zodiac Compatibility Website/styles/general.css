@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pinyon+Script&display=swap');
+
+body {
+    background-color: #F8EEEC;
+    font-family: 'Frank Ruhl Libre', 'Open Sans', serif;
+}
+
+h1 {
+    text-align: center;
+    margin: 20px 0;
+    font-family: 'Pinyon Script', cursive;
+    color: rgba(0,0,0,0.8);
+    font-weight: 50;
+}

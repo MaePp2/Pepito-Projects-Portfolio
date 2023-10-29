@@ -1,0 +1,206 @@
+/* style for general */
+
+body {
+    /* This style below will be inherited */
+    font-family: Roboto, Arial;
+    margin: 0;
+    display: flex;
+    flex-flow: column;
+
+    background: url("hearts-bg.jpg") no-repeat center fixed;
+    background-size: cover;
+}
+
+/* style for header */
+
+.header {
+    flex: 0 1 100px;
+    /* The above is shorthand for:
+        flex-grow: 0,
+        flex-shrink: 1,
+        flex-basis: 100px
+    */
+    
+    background-color: rgb(252,221,213);
+    border-bottom: 3px solid black;
+    width: auto;
+  
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-family: Playfair Display, serif;
+    font-style: italic;
+    font-size: 45px;
+    font-weight: 500;
+    margin: 0px 25px 0px 40px;
+    padding-bottom: 8px;
+}
+
+.section-le {
+    font-size: 30px;
+    font-weight: 500;
+    margin: 0px 30px;
+    white-space: nowrap;
+}
+
+/* style for main */
+
+main {
+    padding: 30px 30px;
+    height: 100%;
+
+    flex: 1 1 auto;
+}
+
+.form-grid {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    column-gap: 30px;
+    row-gap: 40px;
+    align-content: center;
+    justify-content: center;
+}
+
+.answer-form,
+.compatibility-results {
+    background-color: white;
+    height: 580px;
+    border-radius: 3%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.persons-forms{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.your-info, .crush-info {
+    padding: 10px 50px;
+    width: 100%;
+}
+
+.form-title {
+    font-family: Playfair Display, serif;
+    font-weight: 500;
+    font-size: 25px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+label {
+    font-size: 20px;
+    color:rgb(126, 126, 126);
+    margin: 30px auto 0px;
+    display: block;
+}
+
+input {
+    font-size: 25px;
+    padding: 5px;
+    margin-top: 10px;
+    display: block;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 1.6px solid rgb(148,78,60);
+    width: 100%;
+}
+
+.submit-button {
+    background-color: rgb(133,70,57);
+    color: white;
+    border: none;
+    border-radius: 25px;
+    padding: 10px 16px 10px;
+    font-weight: bold;
+    font-size: 20px;
+    width: 200px;
+    margin: 40px 0px;
+    align-self: center;
+    cursor: pointer;
+    transition: box-shadow 0.15s;
+}
+
+.submit-button:hover {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+  }
+
+.compatibility-results {
+    justify-content: start;
+}
+
+.compatibility-results .form-title {
+    margin-top: 55px;
+}
+
+.results-names {
+    padding: 15px;
+    margin: 20px;
+    font-size: 35px;
+    text-align: center;
+    align-self: center;
+    color: rgb(205, 127, 106);
+}
+
+.results-flames, .results-zodiac {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 25px;
+    color: rgb(205, 127, 106);
+}
+
+.results-flames {
+    margin: 20px;
+}
+
+.results-flames-title {
+    margin: 10px;
+    padding-left: 20px;
+    font-weight: 500;
+}
+
+.results-flames-answer {
+    margin: 10px;
+    padding-right: 20px;
+    font-weight: 500;
+    justify-self: center;
+}
+
+.results-zodiac {
+    margin: 20px;
+}
+
+.results-zodiac-title,
+.results-zodiac-answer {
+    margin: 5px 8px;
+    padding: 20px;
+    font-weight: 500;
+}
+
+/* style for @media */
+
+@media (max-width: 900px) {
+    .form-grid {
+      grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 600px) {
+    .logo {
+        font-size: 40px;
+    }
+    
+    .section-le {
+        font-size: 25px;
+    }
+}

@@ -1,0 +1,60 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+a, .logo {
+    text-decoration: none;
+    font-weight: 400;
+    font-variant-caps: all-small-caps;
+    color: black;
+    letter-spacing: 1.5px;
+}
+
+.header {
+    background: url("../images/paper-texture-bg.png");
+    height: 55px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    background-size: cover;
+}
+
+.left-section {
+    width: calc(100%/3);
+    text-align: left;
+    padding: 0 30px;
+}
+
+.middle-section {
+    width: calc(100%/3);
+    text-align: center;
+}
+
+.right-section {
+    width: calc(100%/3);
+    text-align: right;
+    padding: 0 30px;
+}
+
+.logo {
+    cursor: pointer;
+    font-size: 28px;
+    letter-spacing: 4px;
+    font-weight: 300;
+}
+
+.nav-item {
+    display: inline-block;
+    padding: 0 8px;
+}
+
+.nav-link {
+    transition: opacity 0.2s;
+}
+
+.nav-link:hover {
+    opacity: 0.5;
+}

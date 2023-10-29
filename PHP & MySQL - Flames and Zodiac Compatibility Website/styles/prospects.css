@@ -1,0 +1,225 @@
+.container-button {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.add-button {
+    font-family: 'Frank Ruhl Libre', 'Open Sans', serif;
+    padding: 10px 20px;
+    background:transparent;
+    transition:all .5s ease;
+    color:#41403E;
+    outline:none;
+    box-shadow: 20px 38px 34px -26px hsla(0,0%,0%,.2);
+    border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+    border:solid 3px #41403E;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.add-button:hover {
+    box-shadow:2px 8px 4px -6px hsla(0,0%,0%,.3);
+}
+
+/* Popup Styles */
+
+.active {
+    filter: blur(20px);
+    pointer-events: none;
+    user-select: none;
+}
+
+.container-popup {
+    width: 100%;
+    min-height: 100%;
+    top: 0;
+}
+
+.popup {
+    width: 400px;
+    background: white;
+    border-radius: 6px;
+    position: absolute;
+    margin: 0 auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    visibility: hidden;
+    transition: transform 0.4s, top 0.4s;
+}
+
+.open-popup {
+    visibility: visible;
+    display: block;
+    transform: translate(-50%, -50%) scale(1);
+}
+
+.popup.active {
+    filter: none !important;
+    pointer-events: all;
+    user-select: auto;
+}
+
+/* Form Styles */
+
+.form * {
+    box-sizing: border-box;
+    line-height: 1.5;
+}
+
+.popup .popup__header {
+    border-bottom: rgba(0, 0, 0, 0.05) solid 2px;
+}
+
+.popup .popup__header, .popup .add-prospect {
+    padding: 10px 15px;
+}
+
+.popup .popup__header h2 {
+    font-weight: normal;
+    font-size: 20px;
+}
+
+.popup .close {
+    position: absolute;
+    top: 5px;
+    right: 15px;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.form__item {
+    display: flex;
+    flex-direction: column;
+}
+
+.form__label {
+    font-weight: 400;
+    color:rgb(126, 126, 126);
+    padding: 10px 0;
+}
+
+.form__input {
+    width: 100%;
+    max-width: 425px;
+
+    padding: 0.5em;
+    font-size: 0.9em;
+    font-family: 'Frank Ruhl Libre', 'Open Sans', serif;
+
+    outline: none;
+    border: 1px solid #dddddd;
+    border-radius: 4px;
+    background: #f9f9f9;
+    transition: background 0.25s, border-color 0.25s, color 0.25s;
+}
+
+.form__input:focus {
+    background: #ffffff;
+}
+
+.add-prospect {
+    padding-bottom: 20px !important;
+}
+
+.form__buttons {
+    margin-top: 20px;
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+.form__btn {
+    text-transform: uppercase;
+    font-size: 0.9em;
+    font-family: 'Frank Ruhl Libre', 'Open Sans', serif;
+    padding: 5px 16px;
+}
+
+.form__btn:hover {
+    box-shadow: 0 10px 12px 0 rgba(0,0,0,0.12), 0 12px 50px 0 rgba(0,0,0,0.12);
+}
+
+.reset-button {
+    color: #E18AAA;
+    background: #F5DCE0;
+    border: 2px solid #F5DCE0;
+    border-radius: 5px;
+}
+
+.save-button {
+    color: #ffffff;
+    background: #E4A0B7;
+    border: 2px solid #E4A0B7;
+    border-radius: 5px;
+}
+
+.bb-Form {
+    border:none;
+}
+
+/* Table Styles */
+
+.content-table {
+    border-collapse: collapse;
+    margin: 25px auto;
+    font-size: 0.99em;
+    min-width: 400px;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0,0,0,0.15);
+}
+
+.content-table thead tr {
+    background-color: black;
+    color: white;
+    text-align: left;
+}
+
+.content-table th,
+.content-table td {
+    padding: 12px 15px;
+    font-weight: normal;    
+}
+
+content-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+content-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+content-table tbody tr:last-of-type {
+    border-bottom: 2px solid black;
+}
+
+content-table tbody tr:hover {
+    font-weight: bold;
+    color: #E18AAA;
+}
+
+/* Icon Styles */
+
+.action-icon {
+    cursor: pointer;
+}
+
+.material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 48;
+}
+
+tbody button {
+    background: none;
+	color: inherit;
+	border: none;
+}

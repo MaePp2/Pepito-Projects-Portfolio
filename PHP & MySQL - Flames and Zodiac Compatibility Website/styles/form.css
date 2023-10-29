@@ -1,0 +1,82 @@
+section {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px 0 50px 0;
+}
+
+.answer-form {
+    min-width: 0;
+    margin: auto;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+h1 {
+    font-size: 65px;
+    margin: 20px 0 0 0;
+}
+
+input {
+    padding: 12px 12px 12px 2px;
+    font-family: 'Frank Ruhl Libre', 'Open Sans', serif;
+    font-size: 15px;
+    border: none;
+    background-color: transparent;
+    border-bottom: solid 3px #41403E;
+    min-width: 320px;
+    letter-spacing: .3px;
+    margin-top: 15px;
+}
+
+input:focus {
+    box-shadow: none;
+    outline: 0;
+}
+
+::placeholder {
+    color: black;
+    opacity: 1;
+}
+
+button {
+    font-family: 'Frank Ruhl Libre', 'Open Sans', serif;
+    padding: 10px 20px;
+    background:transparent;
+    transition:all .5s ease;
+    color:#41403E;
+    outline:none;
+    box-shadow: 20px 38px 34px -26px hsla(0,0%,0%,.2);
+    border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+    border:solid 3px #41403E;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+button:hover {
+    box-shadow:2px 8px 4px -6px hsla(0,0%,0%,.3);
+}
+
+.form-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.form-link {
+    margin: 25px;
+    font-size: 14px;
+    text-decoration: underline !important;
+    font-style: italic;
+    font-variant-caps: normal;
+    transition: opacity 0.2s;
+}
+
+.form-link:hover {
+    opacity: 0.5;
+}

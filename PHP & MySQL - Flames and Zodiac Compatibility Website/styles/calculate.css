@@ -1,0 +1,98 @@
+section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.calculate-form {
+    min-width: 0;
+}
+
+.form-field-2 {
+    margin-top: 30px;
+}
+
+label {
+    display: block;
+}
+
+.select {
+    padding: 8px 12px;
+    font-family: 'Frank Ruhl Libre', 'Open Sans', serif;
+    font-size: 15px;
+    background-color: #ECBDC4;
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+    min-width: 320px;
+    letter-spacing: .3px;
+    margin-top: 10px;
+}
+
+.select:focus, .select:hover {
+    outline: 0;
+    border: 1px solid #e4a0b7;
+}
+
+.select option {
+    background: #ECBDC4;
+}
+
+.select option:hover {
+    background: #e4a0b7;
+}
+
+.form__buttons {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.form__btn {
+    text-transform: uppercase;
+    font-size: 0.9em;
+    font-family: 'Frank Ruhl Libre', 'Open Sans', serif;
+    padding: 5px 16px;
+    font-weight: 500;
+}
+
+.form__btn:hover {
+    box-shadow: 0 10px 12px 0 rgba(0,0,0,0.12), 0 12px 50px 0 rgba(0,0,0,0.12);
+}
+
+.reset-button {
+    color: #E18AAA;
+    background: #F5DCE0;
+    border: 2px solid #F5DCE0;
+    border-radius: 5px;
+}
+
+.calculate-button {
+    color: #ffffff;
+    background: #E4A0B7;
+    border: 2px solid #E4A0B7;
+    border-radius: 5px;
+}
+
+.section--results {
+    margin-top: 20px;
+    flex-direction: column;
+    box-shadow: 20px 38px 34px -26px hsla(0,0%,0%,.2);
+    border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+    border:solid 3px #41403E;
+    padding: 50px;
+}
+
+.results {
+    margin: 5px;
+}
+
+.flames-title {
+    font-weight: 500;
+}
+
+.zodiac-title {
+    margin-top: 20px;
+    font-weight: 500;
+}
