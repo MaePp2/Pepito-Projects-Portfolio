@@ -7,7 +7,7 @@ We developed a website to increase Tech for Filipino Youth Organization’s visi
 * [Working link](https://tfyo-12e98.web.app/)
 
 ### WATERVAULT MOBILE APPLICATION PROTOTYPE USING FIGMA
-Water Vault is a project prototype presented as a daily water consumption reminder and tracker. With the use of FIGMA in developing the Water Vault application, the group encourages everyone to try the application and have it assist them in maintaining a healthy and hydrated lifestyle.
+Water Vault is a project prototype presented as a daily water consumption reminder and tracker. With the use of FIGMA in developing the Water Vault application, we encouraged everyone to try the application prototype and have it assist them in maintaining a healthy and hydrated lifestyle.
 * [Figma Link](https://www.figma.com/proto/ny6HpmXt1tDVf5z4tvdRzs/Water-Vault-Prototype?type=design&node-id=89-15&t=K0SPskajq6zhGjBE-1&scaling=scale-down&page-id=0%3A1&starting-point-node-id=65%3A12&show-proto-sidebar=1&mode=design)
 
 ### WEBMASTERS GUILD MERCHANDISE SYSTEM
