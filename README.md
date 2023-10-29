@@ -3,4 +3,4 @@
 ## Projects that were not included:
 ### TECH FOR FILIPINO YOUTH ORGANIZATION WEBSITE (BOOTSTRAP, VUE.JS, AND FIREBASE)
 > [GitHub Repository](https://github.com/isdmg/IT135-8L_TFYO)
-> [Working link](https://tfyo-12e98.web.app/)
+[Working link](https://tfyo-12e98.web.app/)
